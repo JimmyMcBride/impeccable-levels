@@ -19,7 +19,7 @@ Never promote an intention into an observation. Report `not tested` when evidenc
 2. List hard requirements, protected authored elements, and intentional exceptions before identifying defects.
 3. Name the current design question: for example, "Does this compact approach make the keep feel monumental without adding empty walking?"
 4. Review ordinary player views and the return journey, not only an editor flythrough or selected hero shot.
-5. Keep a neutral-lighting graybox pass. Add lighting or sound cues only when the experiment explicitly depends on them; also inspect whether geometry remains readable without them.
+5. Keep a readable neutral-lighting comparison when useful. Add lighting or sound cues when the experiment depends on them. Keep necessary accessibility support active; do not confuse a layout-only diagnostic with an acceptable configuration for every player.
 
 ## Technical eligibility
 
@@ -53,10 +53,16 @@ Record each as `supported`, `concern`, or `unresolved`; include the evidence and
 - Give the objective without explaining the intended route, surprise, or emotional effect. Observe first; avoid coaching.
 - Record route taken, attempted interactions, voluntary pauses, backtracks, camera adjustments and places requiring help. A pause can mean wonder, confusion or distraction: ask afterward rather than interpreting it automatically.
 - Ask neutral questions: "What stood out?", "Where did you want to go?", "Was anything unclear?", "How large did this place feel?", and "Which moment would you change?"
+- Begin with unprompted recall before asking about a particular relationship or history. Record whether understanding emerged spontaneously or only after a targeted question; prompting is not evidence of spontaneous discovery.
 - For awe, distinguish feeling scale, surprise, beauty, threat and curiosity. Do not lead with "Did that awesome vista amaze you?"
+- Ask what changed in the player's understanding separately from what they felt. A correctly identified spatial relationship is not proof of an emotional response.
 - Revisit the main design question. Preserve evidence that contradicts the author's intention. Record familiarity, relevant access needs and sample limitations without collecting unnecessary personal information.
 
 ## Report and revise
+
+Before a comparison, write a small experiment card: `question → competing explanations → changed variable → fixed conditions → observations → revision decision`. Decide what evidence would contradict the proposal. Use [player guidance](player-guidance.md) for mistaken actions and [environmental storytelling](environmental-storytelling.md) for interpreted clues.
+
+Keep route, controller/camera, relevant assistance, scene states and exposure conditions comparable. Prefer fresh participants for discoveries; if people see both versions, counterbalance order where practical and disclose learning effects. A stronger explanation after a second visit may reflect familiarity, not a better layout. Report observations and denominators rather than inventing a universal success threshold.
 
 Use one finding per issue:
 

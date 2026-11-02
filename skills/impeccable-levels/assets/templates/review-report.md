@@ -21,6 +21,15 @@ Use pass / fail / not tested / not applicable for each relevant requirement, wit
 
 ## Next decision
 
+For a targeted comparison, optionally record:
+
+- Design question and competing explanations:
+- Proposed change and fixed conditions, including accessibility support:
+- Participants/exposure order, or why this remains a plan-only test:
+- Observations that would support or contradict the proposal:
+- Gameplay comprehension, spatial understanding and emotional response, recorded separately:
+- Keep / revise / revert decision and evidence:
+
 - Changes authorized and made, if any:
 - Before/after evidence under matched conditions:
 - Regressions or unresolved questions:

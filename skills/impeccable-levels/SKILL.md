@@ -1,11 +1,11 @@
 ---
 name: impeccable-levels
-description: Plan, build, critique, and improve intentional 3D level grayboxes before production art. Use for level design, grayboxing/greyboxing, blockouts/whiteboxes, player flow, exploration, encounters, wayfinding, camera-aware composition, awe, or making compact worlds feel grand. Includes optional Godot 4 CSG guidance; keep the design core engine-agnostic. Not a general engine-programming or final environment-art skill.
+description: Plan, build, critique, and improve intentional 3D level grayboxes before production art. Use for level design, grayboxing/greyboxing, blockouts/whiteboxes, player flow, exploration, encounters, wayfinding, environmental storytelling, camera-aware composition, awe, or making compact worlds feel grand. Includes optional Godot 4 CSG guidance; keep the design core engine-agnostic. Not a general engine-programming or final environment-art skill.
 ---
 
 # Impeccable Levels
 
-Version 0.1.0 — research-backed guidance; behavioral smoke tests are not proof of superior playable levels.
+Version 0.2.0 — research-backed guidance; behavioral smoke tests are not proof of superior playable levels.
 
 Design a playable experience, not a collection of objects. Make the next spatial decision concrete, reversible, and testable.
 
@@ -22,6 +22,8 @@ Treat these as conversational modes, not executable commands.
 | Review a level | Inspect available artifacts; report findings without changing them | [Evaluation](references/evaluation.md), one relevant design reference |
 | Improve a level | Make authorized, targeted changes; preserve protected work | [Workflow](references/workflow.md), [evaluation](references/evaluation.md) |
 | Make it feel grand / inspire awe | Design perception and the approach before adding area | [Awe and perceived scale](references/awe-and-perceived-scale.md) |
+| Fix confusion / misleading routes | Diagnose what players think they can do; preserve chosen exploration | [Player guidance](references/player-guidance.md) |
+| Make the place tell a story | Connect spatial evidence to use, events and player choices | [Environmental storytelling](references/environmental-storytelling.md) |
 | Prepare for art replacement | Record the approved spatial relationships and remaining risks | [Graybox and handoff](references/graybox-and-handoff.md) |
 
 Load only the references relevant to the current decision. Use [spatial patterns](references/spatial-patterns.md) when choosing route structure and [archetypes](references/archetypes.md) when the genre or place type changes. Patterns are options, not a checklist to impose on every level.
@@ -86,6 +88,8 @@ Use [evaluation](references/evaluation.md). Keep these judgments separate:
 
 A navigation path does not prove physics traversal. A screenshot does not prove a moving reveal. Neither proves fun or awe. If the engine is unavailable, perform plan-level review and state exactly what remains untested.
 
+When a player tries an unsupported action, record the location, visible cue, attempted action and actual capability before proposing a repair. When testing grandeur, distinguish perceived size, changed understanding and reported emotion. Use the specialized references above; do not replace observation with a stronger adjective.
+
 For each important finding, give `location/state → evidence → player consequence → smallest change → protected constraints → re-test`. Recommend a few prioritized changes rather than unbounded polishing. Apply only changes authorized by the request. Preserve unrelated work; keep before/after evidence and a recoverable revision. Stop at the agreed budget and disclose unresolved issues.
 
 ## 5. Hand off the spatial contract
@@ -100,6 +104,7 @@ Present a concise result: what was designed/changed, why it supports the brief, 
 - Make grandeur through contrast, depth, silhouette, anchors and discovery; do not default to oversized empty maps.
 - Maintain the player's trust about what is reachable. Do not advertise an inaccessible scenic ledge with the same cues as a required path.
 - Use readable geometry and redundant cues; do not rely solely on color, darkness, tiny details, or forced camera movement.
+- Keep necessary accessibility support active. Test optional guidance separately; removing help is not proof of a better level.
 - Allow purposeful uncertainty, but provide recovery appropriate to the audience. A maze and a quest hub have different clarity goals.
 - Tie numbers to measured project metrics or explicitly authored experiments. There is no universal corridor width, branch count, pacing interval, “awe ratio,” or CSG-node budget.
 - Treat AI failure patterns as review hypotheses, not claims about every model. Make concrete observations about the current artifact.
@@ -107,6 +112,7 @@ Present a concise result: what was designed/changed, why it supports the brief, 
 ## Further resources
 
 - [Worked compact sanctuary plan](assets/examples/compact-sanctuary.md): original design hypothesis, not an engine-tested level.
+- [Graybox revision experiments](assets/examples/graybox-experiments.md): concrete before/change/test examples; proposed outcomes, not measured results.
 - [Graybox plan template](assets/templates/graybox-plan.md) and [review template](assets/templates/review-report.md).
 - [Benchmark briefs](assets/benchmarks/briefs.md): authored tests, not genre prescriptions; use independent contexts and retain failures.
 - [Engine-module contract](references/engine-modules.md) and [module metadata](modules/godot-csg/module.json): extend the engine guidance without changing the core.

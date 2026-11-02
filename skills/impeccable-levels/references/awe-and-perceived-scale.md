@@ -39,6 +39,21 @@ Forced perspective is a candidate experiment for controlled viewing regions, not
 
 Lighting, atmosphere and sound can contribute later, or appear as minimal placeholders when essential to the hypothesis. First run a readable neutral pass to expose geometry problems. Then compare the intended treatment. Do not equate “works without any atmosphere” with a universal artistic requirement.
 
+## Test changed understanding, not just size
+
+[S11](sources-design.md#s11--awe-as-an-appraisal-framework) proposes perceived vastness and a need to revise existing understanding as central to awe. This is a conceptual framework, not a tested level recipe. [S12](sources-design.md#s12--awe-in-immersive-vr) found higher reported awe in three immersive environments than a neutral one, but no significant between-condition difference in accommodation. It does not isolate reveal design or establish desktop-graybox effects.
+
+Our additional experiment: let a later view connect a familiar local space to a larger whole. A modest passage might become recognizable as one buttress of the structure now overhead. Use actual coherent geometry, not a visual trick that contradicts the return journey. A beautiful sustained vista remains valid; not every place needs a twist.
+
+Before building, record:
+
+- **Initial interpretation:** what might the player think this place is?
+- **New relationship:** what later becomes visible about its extent, function, age or their location within it?
+- **Recognition cue:** which already encountered shape or route makes the connection legible?
+- **Local action:** where can the player stop safely, and what can they do next?
+
+Compare a scale-only vista with the relationship-revealing variant under matched controller, camera, lighting, playable footprint and route conditions. Record unavoidable differences. Ask first what caught attention and what changed in the player's understanding. Then ask separately about perceived scale and feelings, including awe, curiosity, fear or confusion. Understanding a relationship is evidence of comprehension, not proof of awe. Preserve clear movement affordances even when the world's history remains mysterious.
+
 ## Completion question
 
 Can this compact graybox offer both an enjoyable local journey and the impression of a larger coherent world? Record observations, not “awe achieved.” Note what still depends on art, audio or human testing, and protect the established silhouettes, viewpoints, scale anchors and route clearances during replacement.

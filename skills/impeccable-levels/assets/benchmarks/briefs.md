@@ -13,7 +13,7 @@ These are original Impeccable Levels evaluation fixtures. All sizes, counts and 
 - Separate the traversable footprint from scenic proxies. Backdrops may imply a wider world but may not create hidden gameplay areas or evade the playable-area limit.
 - Preserve the brief's external entrances/exits and approved constraints during revision. Capture ordinary player views on approach, at decisions and on return.
 - Ask for a compact annotated layout, route/connection explanation, dimensions derived from the controller, intended experiences, construction priorities, and a test plan. Require a runnable graybox only when the test environment supports it.
-- Run the first pass without waypoint arrows. If guidance is necessary for the intended audience, compare an accessible guidance configuration too; do not equate withholding help with good design.
+- A layout-only comparison may omit optional waypoint arrows when appropriate for the participants, but keep needed accessibility support in all applicable conditions. Document the configuration; do not equate withholding help with good design.
 
 ## A — Festival village
 
