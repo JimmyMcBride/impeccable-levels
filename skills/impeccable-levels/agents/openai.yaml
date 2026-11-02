@@ -1,0 +1,4 @@
+interface:
+  display_name: "Impeccable Levels"
+  short_description: "Design fun, awe-inspiring grayboxes before the art pass"
+  default_prompt: "Use $impeccable-levels to plan or critique a playable graybox, including perceived scale and a Godot CSG pass if relevant."

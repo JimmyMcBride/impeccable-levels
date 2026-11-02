@@ -1,0 +1,14 @@
+{
+  "contract_version": "1.0",
+  "id": "godot-csg",
+  "engine_family": "godot",
+  "purpose": "Efficient editable CSG grayboxing with an existing Godot agent",
+  "entrypoint": "guide.md",
+  "references": ["recipes.md"],
+  "compatibility": {
+    "applies_to": "Godot 4.x; verify the target minor release",
+    "documentation_baseline": "Godot 4.5 official CSG documentation and class references",
+    "runtime_tested": false,
+    "notes": "Documentation-checked construction guidance, not an installed editor plugin or runtime-tested adapter. Check the project's engine and renderer before applying version-sensitive steps."
+  }
+}
